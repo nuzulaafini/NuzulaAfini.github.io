@@ -336,24 +336,24 @@ section {
 .article-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Menyebarkan item secara merata dan memastikan baris kedua terpusat */
+  justify-content: space-between; /* Membuat jarak yang merata antara skill */
   gap: 2rem;
   text-align: center;
 }
 
 article {
-  flex: 1 1 calc(20% - 2rem); /* Ukuran lebar fleksibel untuk menampung 5 item di baris pertama */
+  flex: 1 1 calc(20% - 1rem); /* Membuat 5 item di baris pertama */
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 18rem;
-  min-width: 15rem;
+  min-width: 12rem;
   gap: 0.5rem;
 }
 
 article.big-data,
 article.business-intelligence {
-  flex: 1 1 40%; /* Mengatur agar item ini lebih lebar dan terpusat di baris kedua */
+  flex: 1 1 48%; /* Mengatur agar kedua item di baris kedua lebih lebar dan rata */
+  margin: 0 auto; /* Memusatkan item di baris kedua */
 }
 
 article .icon {
