@@ -76,7 +76,7 @@ Jika Anda memiliki ide atau ingin berkontribusi pada pengembangan website ini, A
 
 ## Lisensi
 
--
+- -
 
 ## Kontak
 
